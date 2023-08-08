@@ -4,14 +4,29 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+:root{
+    --primary-color: #edf2fc;
+    --secondary-color: #211212;
+}
+
 body{
-    background: rgb(186, 226, 238)smoke;
+    background: var(--primary-color);
 }
 
 .hero{
     height: 100vh;
     width: 100%;
     position: relative;
+}
+
+#icon{
+    width: 30px;
+    cursor: pointer;
+}
+
+nav ul{
+    flex: 1;
+    text-align: right;
 }
 
 nav{
@@ -42,6 +57,7 @@ nav ul li a{
 nav ul li a:hover{
     color: orange;
 }
+
 .info{
     margin-left: 8%;
     margin-top: 15%;
@@ -49,24 +65,24 @@ nav ul li a:hover{
 
 .info h1{
     font-size: 70px;
-    color: #212121;
+    color: var(--secondary-color);
     margin-bottom: 20px;
 }
 
-.span{
+span{
     color: #ff4321;
 }
 
 .info p{
-    color: #212112;
+    color: var(--secondary-color);
     line-height: 22px;
 }
 
 .info a{
-    background: #211212;
+    background: var(--secondary-color);
     padding: 10px;
     text-decoration: none;
-    color: #fff;
+    color: var(--primary-color);
     display: inline-block;
     margin: 30px 0;
     border-radius: 5px;
@@ -104,7 +120,7 @@ nav ul li a:hover{
 
 .social-links a{
     font-size: 30px;
-    color: black;
+    color: var(--secondary-color);
     margin-right: 20px;
 }
 
