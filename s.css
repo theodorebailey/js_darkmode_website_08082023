@@ -4,9 +4,15 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+/* easy to change website colours from one place */
 :root{
     --primary-color: #edf2fc;
     --secondary-color: #211212;
+}
+
+.dark-theme{
+    --primary-color: #000106;
+    --secondary-color: #fff;
 }
 
 body{
@@ -51,7 +57,7 @@ nav ul li {
 
 nav ul li a{
     text-decoration: none;
-    color: #600613;
+    color: var(--secondary-color);
 }
 
 nav ul li a:hover{
