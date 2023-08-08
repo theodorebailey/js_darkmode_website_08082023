@@ -5,7 +5,7 @@
 }
 
 body{
-    background: #345689;
+    background: rgb(186, 226, 238)smoke;
 }
 
 .hero{
@@ -95,4 +95,19 @@ nav ul li a:hover{
 
 .img-box:hover .main-img{
     left: 54%;
+}
+
+.social-links{
+    margin-left: 8%;
+    margin-top: 100px;
+}
+
+.social-links a{
+    font-size: 30px;
+    color: black;
+    margin-right: 20px;
+}
+
+.social-links a:hover{
+    color: #ff4231;
 }
